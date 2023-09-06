@@ -27,7 +27,7 @@
                         <h3 class="mb-0">{{ blog.title }}</h3>
                         <div class="mb-1 text-muted">{{ blog.pub_date | date:'Y-m-d H:s' }}</div>
                         <p class="card-text mb-auto">{{ blog.body | slice:140 }} ... </p>
-                        <a href="{% url 'detay' blog.id %}" class="stretched-link">Blog Yazısını Oku</a>
+                        <a href="{% url 'detay' blog.id %}" class="stretched-link">Blog </a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="{{ blog.image.url }}" class="bd-placeholder-img" alt="" width="200" height="250" >
